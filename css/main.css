@@ -87,6 +87,85 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: bilo, sans-serif;
+}
+
+
+.bg-dark {
+    background-color: #0d0d0d !important;
+}
+
+.navbar-dark .navbar-brand {
+    font-style: italic;
+    color: #c5fdfd;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.search-box .btn{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #c5fdfd;
+    border-color: #c5fdfd;
+}
+
+.hero-quote {
+    color: #4b6483;
+    text-align: center;
+    padding: 5em;
+    font-style: italic;
+    background-image: url(../img/chevron.png);
+    font-weight: 900;
+}
+
+
+
+/* Bookings */
+
+.search-box {
+    background-image: url(../img/http---cdn.cnn.com-cnnnext-dam-assets-171204175611-12-aspen-non-skiers.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5em;
+}
+
+@media only screen and (min-width: 35em) {
+    .search-box {
+        padding: 10em
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .search-box {
+        padding: 15em
+    }
+
+}
+
+.featured .row{
+    margin-bottom: 2em;
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -4,7 +4,7 @@
 <head>
  <link rel="stylesheet" href="https://use.typekit.net/rls3aos.css">
   <meta charset="utf-8">
-  <title>Aspen Travel</title>
+  <title>Aspen Travel Bookings</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,7 +30,7 @@
 
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="booking.html">Booking</a>
+          <a class="nav-link active" aria-current="page" href="booking.html">Booking</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="features.html">Features</a>
@@ -53,6 +53,7 @@
     </div>
 
 
+
   </div>
 
 </nav>
@@ -61,71 +62,79 @@
 
 
 
-<div class="container-fluid">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-  </div>
+<div class="container-fluid search-box">
 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/http---cdn-1.cnn.com-cnnnext-dam-assets-171204124343-01-aspen-non-skiers.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Travel to Aspent</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+
+<form class="row  g-3 align-items-center">
+  <div class="col-12 col-md-4">
+    <label class="visually-hidden" for="inlineFormInputGroupUsername">Search rooms</label>
+    <div class="input-group">
+      <div class="input-group-text">Search rooms</div>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="number of guests">
     </div>
-
-
   </div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <div class="col-12 col-md-4">
+    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+    <select class="form-select" id="inlineFormSelectPref">
+      <option selected>Choose month</option>
+      <option value="1">June</option>
+      <option value="2">July</option>
+      <option value="3">Aug</option>
+    </select>
+  </div>
+
+
+  <div class="col-12 col-md-4">
+
+    <div class="d-grid gap-2">
+     <button type="submit" class="btn btn-primary">Search</button>
 </div>
+  </div>
+</form>
+
 
   </div>
-   <div class="container hero-quote">
+   <div class="container-fluid hero-quote">
        <div class="row">
            <div class="col">
-               <h1>Big Hero Quote</h1>
+               <h1>Really Nice Rooms for rent</h1>
            </div>
        </div>
    </div>
 
-    <div class="container">
+    <div class="container-fluid container-xl featured">
         <div class="row">
-            <div class="col-md-4">
-               <img class="img-fluid" src="img/http---cdn.cnn.com-cnnnext-dam-assets-171204125930-05-aspen-non-skiers.jpg" alt="">
-                <h3>Heading</h3>
-                <p>I'm baby heirloom street art farm-to-table chambray lomo cred hella put a bird on it roof party freegan truffaut keytar quinoa. Franzen fashion axe af roof party twee bitters kogi craft beer narwhal pinterest VHS pabst lomo cliche. Tbh chicharrones crucifix VHS, vaporware plaid +1. Etsy biodiesel hammock chia glossier green juice tilde 90's normcore meditation. Freegan pinterest copper mug, XOXO post-ironic hashtag crucifix cronut tacos mustache aesthetic thundercats palo santo locavore.</p>
-                <button type="button" class="btn btn-primary btn-lg ">Large button</button>
+            <div class="col-md-6">
+                    <img class="img-fluid" src="img/http---cdn-1.cnn.com-cnnnext-dam-assets-171204124343-01-aspen-non-skiers.jpg" alt="">
 
             </div>
-            <div class="col-md-4">
-                 <img class="img-fluid" src="img/http---cdn.cnn.com-cnnnext-dam-assets-171204125930-05-aspen-non-skiers.jpg" alt="">
-
+            <div class="col-md-6">
                 <h3>Heading</h3>
                 <p>I'm baby heirloom street art farm-to-table chambray lomo cred hella put a bird on it roof party freegan truffaut keytar quinoa. Franzen fashion axe af roof party twee bitters kogi craft beer narwhal pinterest VHS pabst lomo cliche. Tbh chicharrones crucifix VHS, vaporware plaid +1. Etsy biodiesel hammock chia glossier green juice tilde 90's normcore meditation. Freegan pinterest copper mug, XOXO post-ironic hashtag crucifix cronut tacos mustache aesthetic thundercats palo santo locavore.</p>
-                          <button type="button" class="btn btn-primary btn-lg ">Large button</button>
-
-              </div>
-            <div class="col-md-4">
-                    <img class="img-fluid" src="img/http---cdn.cnn.com-cnnnext-dam-assets-171204125930-05-aspen-non-skiers.jpg" alt="">
-                <h3>Heading</h3>
-                <p>I'm baby heirloom street art farm-to-table chambray lomo cred hella put a bird on it roof party freegan truffaut keytar quinoa. Franzen fashion axe af roof party twee bitters kogi craft beer narwhal pinterest VHS pabst lomo cliche. Tbh chicharrones crucifix VHS, vaporware plaid +1. Etsy biodiesel hammock chia glossier green juice tilde 90's normcore meditation. Freegan pinterest copper mug, XOXO post-ironic hashtag crucifix cronut tacos mustache aesthetic thundercats palo santo locavore.</p>
-                            <button type="button" class="btn btn-primary btn-lg ">Large button</button>
-
+                            <button type="button" class="btn btn-light  ">Learn More</button>
             </div>
         </div>
+          <div class="row">
+
+             <div class="col-md-6 d-none d-md-block">
+                <h3>Heading</h3>
+                <p>I'm baby heirloom street art farm-to-table chambray lomo cred hella put a bird on it roof party freegan truffaut keytar quinoa. Franzen fashion axe af roof party twee bitters kogi craft beer narwhal pinterest VHS pabst lomo cliche. Tbh chicharrones crucifix VHS, vaporware plaid +1. Etsy biodiesel hammock chia glossier green juice tilde 90's normcore meditation. Freegan pinterest copper mug, XOXO post-ironic hashtag crucifix cronut tacos mustache aesthetic thundercats palo santo locavore.</p>
+                <button type="button" class="btn btn-light  ">Learn More</button>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-fluid" src="img/http---cdn.cnn.com-cnnnext-dam-assets-190227155348-04-aspen-colorado-non-skiers.jpg" alt="">
+
+            </div>
+             <div class="col-md-6 d-sm-block d-md-none">
+                <h3>Heading</h3>
+                <p>I'm baby heirloom street art farm-to-table chambray lomo cred hella put a bird on it roof party freegan truffaut keytar quinoa. Franzen fashion axe af roof party twee bitters kogi craft beer narwhal pinterest VHS pabst lomo cliche. Tbh chicharrones crucifix VHS, vaporware plaid +1. Etsy biodiesel hammock chia glossier green juice tilde 90's normcore meditation. Freegan pinterest copper mug, XOXO post-ironic hashtag crucifix cronut tacos mustache aesthetic thundercats palo santo locavore.</p>
+                <button type="button" class="btn btn-light  ">Learn More</button>
+            </div>
+
+        </div>
+
+
     </div>
 
 
